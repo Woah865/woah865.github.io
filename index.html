@@ -1,4 +1,8 @@
 <h1 style="color: purple;">Clicker Game :D</h1>
 <body bgcolor="pink">
-<button style="font-size: 114px; padding: 30px 20px; display: block; margin: 0 auto;">Click!</button>
-
+<h1 id="counter">0</h1>
+<button 
+  style="font-size: 114px; padding: 30px 60px;" 
+  onclick="document.getElementById('counter').innerText = ++window.count || (window.count = 1)">
+  Click Me! :D
+</button>
