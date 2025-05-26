@@ -17,7 +17,7 @@ input[type="time"],
 input[type="datetime-local"] {
   padding: 8px;
   margin: 5px;
-  border: 1px solid #ccc;
+  border: 1px solid black;
 }
 table {
   margin: 0 auto;
