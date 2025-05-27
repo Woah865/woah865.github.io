@@ -1,5 +1,5 @@
 body {
-  background-color: pink;
+  background: linear-gradient(to bottom, pink, white);
   text-align: center;
   font-family: Arial, sans-serif;
 }
@@ -26,4 +26,17 @@ table {
 th, td {
   padding: 10px;
   border: 1px solid black;
+}
+div {
+  border: 2px solid #999;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 700px;
+  border-radius: 10px;
+  background-color: #ffe6f0;
+}
+ul {
+  text-align: left;
+  display: inline-block;
+  margin-top: 10px;
 }
